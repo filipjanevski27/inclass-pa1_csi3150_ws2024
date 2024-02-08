@@ -4,19 +4,24 @@ body {
 
 .product-card {
   display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 120px 300px;
+  width: 800px;
+  height: 500px;
 }
 
 .left-img-col {
-  width: 50%;
+  width: 400px;
 }
 
 .left-img-col img {
   width: 100%;
-  object-fit: fill;
+  height: 500px;
 }
 
 .right-info-col {
-  width: 50%;
+  width: 400px;
   background: white;
   padding: 20px;
 }
@@ -34,6 +39,12 @@ body {
 .right-info-col p {
   padding-left: 50px;
   font-size: 14px;
+}
+
+.available-colors {
+  display: flex;
+  justify-content: space-evenly;
+  padding-left: 50px;
 }
 
 .available-colors span {
@@ -67,8 +78,15 @@ body {
   justify-content: space-evenly;
 }
 
+.price h4 {
+  font-size: 32px;
+}
+
 .price button {
   width: 150px;
   height: 40px;
   border-radius: 10px;
+  background: black;
+  color: white;
+  cursor: pointer;
 }
